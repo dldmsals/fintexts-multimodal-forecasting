@@ -1,0 +1,26 @@
+# ---- Python caches ----
+__pycache__/
+*.pyc
+
+# ---- top-level embeddings / parquet data (multi-GB) ----
+*.parquet
+*.tmp
+*.npy
+*.npz
+data/
+data_linq/
+logs/
+
+# ---- FinTexTS: keep source code, drop data / checkpoints / logs / figures ----
+FinTexTS/logs/
+FinTexTS/data/
+FinTexTS/forecasting_task/logs/
+FinTexTS/**/__pycache__/
+
+# ---- weights / caches / figures anywhere ----
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.png
+*.jpg
